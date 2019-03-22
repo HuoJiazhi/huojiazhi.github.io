@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "基于朴素贝叶斯的垃圾邮件分类"
 crawlertitle: "How to use jekyll"
 summary: "Jekyll default page"
 date:   2016-06-28 23:09:47 +0700
