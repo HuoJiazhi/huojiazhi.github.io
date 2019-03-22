@@ -21,8 +21,6 @@ Up & Going: Are you new to programming and JS? This is the roadmap you need to c
 - Types & Grammar
 - Async & Performance
 
-[![railroad]({{ site.images | relative_url }}/rails.jpg)]({{ site.images | relative_url }}/rails.jpg)
-
 If you've already read all those titles and you feel pretty comfortable with the topics they cover, it's time we dive into the evolution of JS to explore all the changes coming not only soon but farther over the horizon.
 
 ## `let` Declarations
