@@ -1,13 +1,13 @@
 ---
 bg: "tools.jpg"
 layout: post
-title:  "You Don't Know JS: ES6 & Beyond"
-crawlertitle: "About ES6"
-summary: "What's new in ES6"
-date:   2016-06-29 20:09:47 +0700
+title:  "基于朴素贝叶斯的垃圾邮件分类"
+crawlertitle: "朴素贝叶斯"
+summary: "关于朴素贝叶斯的一些看法"
+date:   2019-03-22 20:09:47 +0700
 categories: posts
-tags: ['front-end']
-author: redVi
+tags: ['ML']
+author: Jiazhi
 ---
 Before you dive into this book, you should have a solid working proficiency over JavaScript up to the most recent standard (at the time of this writing), which is commonly called ES5 (technically ES 5.1). Here, we plan to talk squarely about the upcoming ES6, as well as cast our vision beyond to understand how JS will evolve moving forward.
 
