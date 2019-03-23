@@ -2,9 +2,9 @@
 layout: post
 title:  "朴素贝叶斯实战心得"
 crawlertitle: "NaiveBayes"
-summary: "MachinLearning"
+summary: "NaiveBayes"
 date:   2019-03-23 12:09:47 +0700
-categories: MachineLearning
+categories: 实战心得
 tags: 'MachineLearning'
 author: Jiazhi
 ---
