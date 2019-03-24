@@ -13,7 +13,7 @@ author: Jiazhi
 
 **概括**
 
-Survey的标题是Learning from Small Data Set to Build Classification Model:A Survey，虽然发会议不是什么大会，但是里面所提及到的论文还是很有参考价值的。这篇Survey首先介绍了一些常用的分类的学习方法，决策树啊，贝叶斯啊一堆。然后入正题，介绍了几种针对用小数据集进行机器学习的处理方法。其中个人觉得比较有意思的是：A diffusion-neural-network for learning from small samples中提到的方法，其余几个方法也是根据它进行的改进，另一个就是：The Generalized Trend Diffusion modeling algorithm for small data sets in the early tages of manufacturing systems。今天先来说说前者。
+这篇Survey的标题是Learning from Small Data Set to Build Classification Model:A Survey，虽然发会议不是什么大会，但是里面所提及到的论文还是很有参考价值的。这篇Survey首先介绍了一些常用的分类的学习方法，决策树啊，贝叶斯啊一堆。然后入正题，介绍了几种针对用小数据集进行机器学习的处理方法。其中个人觉得比较有意思的是：A diffusion-neural-network for learning from small samples中提到的方法，其余几个方法也是根据它进行的改进，另一个就是：Using mega-trend-diffusion and artificial samples in small data set learning for early flexible manufacturing system scheduling knowledge。
 
 ------------
 
@@ -32,5 +32,7 @@ Survey的标题是Learning from Small Data Set to Build Classification Model:A S
 > * 若相交面积小，证明两个属性相差够大，可以直接估计。
 > * 反之，利用样本变量的属性进行运算的合成，变成新的样本属性变量。
 
+------------
 
-这样做的原理其实明显，就是如果相距不够大就模拟数据，相距大就可以用样本进行估计，符合逻辑。除此之外还有其他的人根据这个方法做了改进，但是改进的方向基本上是在a和b的取值方法不同，其他基本原理一样。
+这样做的原理其实明显，就是如果相距不够大就模拟数据，相距大就可以用样本进行估计，符合逻辑。除此之外还有其他的人根据这个方法做了改进，基本上是构造这个三角形函数的方式不同，以及估计的假设值不再是简单的运算。如下面这篇文章A non-parametric learning algorithm for small manufacturing data sets，用的是连续输入的x构造一个三角形函数，而不是每个属性值一个函数，也不需要再计算相交面积。而且每个样本x都会有一个tp值，这个值可以理解为这个样本在整体样本中的一个映射，将这个tp值加入模型进行训练，方便模型更加容易找出数据的关系和内部价值。上一节的三角形函数是一个样本数据的关系体现，这里的三角形函数则是整体数据的体现。还有其他几篇文章，也是根据这个方法进行改进的。
+[![railroad]({{ site.images | relative_url }}/tp.jpg)]({{ site.images | relative_url }}/yp.jpg)
