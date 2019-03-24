@@ -1,11 +1,11 @@
 ---
 layout: post
-title:  "根据Excel建库"
-crawlertitle: "数据库"
+title:  "论文研读-小数据集处理方法"
+crawlertitle: "论文研读"
 summary: "大数据"
-date:   2019-03-24 12:09:47 +0700
-categories: DataBase
-tags: 'Other'
+date:   2018-09-10 12:09:47 +0700
+categories: 论文研读
+tags: 'MachineLearning'
 author: Jiazhi
 ---
 
