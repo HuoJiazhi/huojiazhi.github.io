@@ -23,6 +23,10 @@ Survey的标题是Learning from Small Data Set to Build Classification Model:A S
 
 ------------
 
-随后人们慢慢地发现上的方法存在一定的问题，其中最明显的问题无疑就是机器学习中的大难题：过拟合。因为经过这样的方法估计出来的x和y都是在原样本附近的点，导致这些数据很集中，导致模型会尽量地往这些点靠拢，使得模型的泛化性能变差。然后很快就有人提出了改进版本：Using mega-trend-diffusion and artificial samples in small data set learning for early flexible manufacturing system scheduling knowledge。这篇文章在原方法上加多了一个mega，这个方法主要是针对分类问题，文中假设有一系列的x属于A类别，一系列x属于B，他的目的就是去通过这些x去模拟出一下其他的数据，增加这个x的维度，使得这些维度成为x的一些支撑，当然他们依旧是A类别的，简单地说就是把一个本是ax1+b=y的函数变成ax1+a1x11+a2x12+...+anx1n+b=y，后面这些x就是估计样本数据。
+随后人们慢慢地发现上的方法存在一定的问题，其中最明显的问题无疑就是机器学习中的大难题：过拟合。因为经过这样的方法估计出来的x和y都是在原样本附近的点，导致这些数据很集中，导致模型会尽量地往这些点靠拢，使得模型的泛化性能变差。然后很快就有人提出了改进版本：Using mega-trend-diffusion and artificial samples in small data set learning for early flexible manufacturing system scheduling knowledge。这篇文章在原方法上加多了一个mega，这个方法主要是针对分类问题，文中假设有一系列的x属于A类别，一系列x属于B，他的目的就是去通过这些x去模拟出一下其他的数据，增加这个x的维度，使得这些维度成为x的一些支撑，当然他们依旧是A类别的，简单地说就是把一个本是ax1+b=y的函数变成ax1+a1x11+a2x12+...+anx1n+b=y，后面这些x就是估计样本数据。具体的方法如下所示：
+1. 建立一个MTD函数
+2. 计算一个样本两个属性的MTD函数的相交面积
+3. 若相交面积小，证明两个属性相差够大，可以直接估计。
+4. 反之，利用样本变量的属性进行运算的合成，变成新的样本属性变量。
 
 [![railroad]({{ site.images | relative_url }}/database.jpg)]({{ site.images | relative_url }}/database.jpg)
