@@ -27,8 +27,8 @@ Survey的标题是Learning from Small Data Set to Build Classification Model:A S
 [![railroad]({{ site.images | relative_url }}/mega.jpg)]({{ site.images | relative_url }}/mege.jpg)
 [![railroad]({{ site.images | relative_url }}/mega1.jpg)]({{ site.images | relative_url }}/mege2.jpg)
 [![railroad]({{ site.images | relative_url }}/mega2.jpg)]({{ site.images | relative_url }}/mega3.jpg)
-> * 1. 建立一个MTD函数
-> * 2. 计算一个样本两个属性的MTD函数的相交面积
-> * 3. 若相交面积小，证明两个属性相差够大，可以直接估计。
-> * 4. 反之，利用样本变量的属性进行运算的合成，变成新的样本属性变量。
+> * 建立一个MTD函数
+> * 计算一个样本两个属性的MTD函数的相交面积
+> * 若相交面积小，证明两个属性相差够大，可以直接估计。
+> * 反之，利用样本变量的属性进行运算的合成，变成新的样本属性变量。
 这样做的原理其实明显，就是如果相距不够大就模拟数据，相距大就可以用样本进行估计，符合逻辑。除此之外还有其他的人根据这个方法做了改进，但是改进的方向基本上是在a和b的取值方法不同，其他基本原理一样。
