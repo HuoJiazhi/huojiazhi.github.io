@@ -2,7 +2,7 @@
 layout: post
 title:  "论文研读-小数据集处理方法"
 crawlertitle: "论文研读"
-summary: "大数据"
+summary: "小数据集处理"
 date:   2018-09-10 12:09:47 +0700
 categories: 论文研读
 tags: 'MachineLearning'
