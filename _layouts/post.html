@@ -40,13 +40,13 @@ layout: default
         <script>
         var gitment = new Gitment({
 		    id: '<%= page.date %>',
-        owner: '{{site.github_username}}',
-        repo: '{{site.comment_gitment_repo}}',
+        owner: '{{site.githubID}}',
+        repo: '{{site.repo}}',
         oauth: {
-            client_id: '{{site.comment_gitment_clientId}}',
-            client_secret: '{{site.comment_gitment_clientSecret}}',
-        },
-    });
+            client_id: '{{site.ClientID}}',
+            client_secret: '{{site.ClientSecret}}',
+           },
+        });
     gitment.render('gitmentContainer')
     </script>
     {% endif %}
