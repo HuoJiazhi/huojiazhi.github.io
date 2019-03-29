@@ -14,7 +14,7 @@ description: > # this means to ignore newlines until "baseurl:"
   Google search results) and in your feed.xml site description.
 baseurl: "" # the subpath of your site, e.g. /blog
 lang: "en"
-url: "http://localhost:4000" # the base hostname & protocol for your site
+url: "https://huojiazhi.github.io" # the base hostname & protocol for your site
 twitter_username: HuoJiazhi
 github_username:  HuoJiazhi
 disqus_username:
@@ -41,12 +41,10 @@ sass:
   style: compressed
 
 #gitment
-gitment:
-  enable: true
-  githubID: HuoJiazhi
-  repo: huojiazhi.github.io
-  ClientID: 44db74dfbbab10165d71
-  ClientSecret: 65be3a3481b83b7a3df78d5d205685bcc8f6192a
-  lazy: true
+githubID: HuoJiazhi
+repo: huojiazhi.github.io
+ClientID: 44db74dfbbab10165d71
+ClientSecret: 65be3a3481b83b7a3df78d5d205685bcc8f6192a
+lazy: true
 
 images: '/assets/images'
