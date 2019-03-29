@@ -17,7 +17,9 @@
 
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
-  <link rel="shortcut icon" href="/favicon.ico" />
+  <!-- Favicons -->
+  <link rel="shortcut icon" type="image/png" href="{{ site.url }}/favicon.png" />
+  <link rel="shortcut icon" href="{{ site.url }}/favicon.ico" />
   <link href='https://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700|Roboto+Condensed:700&subset=latin' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
 
