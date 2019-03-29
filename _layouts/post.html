@@ -33,20 +33,5 @@ layout: default
         </a>
       {% endif %}
      </div>
-     <div id="container"></div>
-      <link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
-      <script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
-      <script>
-      var gitment = new Gitment({
-        id: '<%= page.date %>',
-        owner: '{{site.githubID}}',
-        repo: '{{site.repo}}',
-        oauth: {
-          client_id: '{{site.ClientID}}',
-          client_secret: '{{site.ClientSecret}}',
-        },
-      })
-      gitment.render('container')
-      </script>
     </div>
 </article>
