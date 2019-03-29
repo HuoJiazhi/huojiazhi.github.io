@@ -14,6 +14,7 @@ author: Jiazhi
 **原料**
 
 1. 电烙铁：加灯肯定需要电烙铁，因为需要高温将锡铁融化，再将灯粘上去。（淘宝随便搜）
+[![railroad]({{ site.images | relative_url }}/dianlaotie.jpg)]({{ site.images | relative_url }}/dianlaotie.jpg)
 2. LED灯（发光二极管）：既然要加灯肯定需要灯珠啦，颜色随便选，我选了白色。
 3. 其他配件：电烙铁支架，因为电烙铁很烫，最好搞个支架放一下以免造成意外。
 4. 如果键盘PCB本身不带用锡，需要自己加上锡去连接灯珠和PCB。我的旧版ikbc，是有的，新版的听说没有了。
