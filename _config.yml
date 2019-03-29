@@ -40,6 +40,7 @@ sass:
   sass_dir: assets/_sass
   style: compressed
 
+#gitment
 gitment:
   enable: true
   githubID: HuoJiazhi
