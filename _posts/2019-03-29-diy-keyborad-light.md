@@ -24,9 +24,9 @@ author: Jiazhi
 **步骤**
 
 1. 拆。把外壳拆除，每一个键盘的拆解过程都不一样，这把ikbcC104不要扭螺丝，直接大力出奇迹把外壳卸了就好。拆完会看到pcb版，留意拆除的时候要轻轻的把连接pcb版的线拔出。
-2. 修剪灯珠，因为这个pcb带有锡，把灯柱修剪到一定长度然后插入会更加方便地安装，不需要用吸锡器将锡吸走。长度如下：
+2. 剪。因为这个pcb带有锡，把灯柱修剪到一定长度然后插入会更加方便地安装，不需要用吸锡器将锡吸走。长度如下：
 [![railroad]({{ site.images | relative_url }}/dengzhu.jpg)]({{ site.images | relative_url }}/dengzhu.jpg)
-3. 将灯珠插上轴体上的灯柱位，然后用电烙铁加热后面的锡，然后沾稳了就OK。
+3. 装。将灯珠插上轴体上的灯柱位，然后用电烙铁加热后面的锡，然后沾稳了就OK。
 [![railroad]({{ site.images | relative_url }}/zhuangguocheng.jpg)]({{ site.images | relative_url }}/zhuangguocheng.jpg)
 
 ------------
@@ -34,3 +34,4 @@ author: Jiazhi
 
 目前还没有研究有哪几种灯效，好像只可以调整灯光亮度fn+上下左右，然后fn+各种数字调整灯光闪烁频率，可惜好像没我最喜欢的点击亮光的模式。
 [![railroad]({{ site.images | relative_url }}/chengguo.jpg)]({{ site.images | relative_url }}/chengguo.jpg)
+后面应该还会换上透光的键帽，效果会更加好。
