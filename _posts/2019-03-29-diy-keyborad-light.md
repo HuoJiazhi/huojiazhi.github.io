@@ -35,3 +35,5 @@ author: Jiazhi
 目前还没有研究有哪几种灯效，好像只可以调整灯光亮度fn+上下左右，然后fn+各种数字调整灯光闪烁频率，可惜好像没我最喜欢的点击亮光的模式。照片看上去有点泛蓝，其实是白色的。
 [![railroad]({{ site.images | relative_url }}/chengguo.jpg)]({{ site.images | relative_url }}/chengguo.jpg)
 后面应该还会换上透光的键帽，效果会更加好。
+附上最近加上的透光键帽效果图。
+[![railroad]({{ site.images | relative_url }}/keybord-rgb.jpg)]({{ site.images | relative_url }}/keybord-rgb.jpg)
