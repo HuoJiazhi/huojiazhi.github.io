@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "SVM学习记录"
+title:  "NLP学习整理"
 crawlertitle: "Attention is All You Need"
-summary: "SVM学习记录"
-date:   2019-04-06 12:09:47 +0700
+summary: "NLP学习整理"
+date:   2019-04-07 12:09:47 +0700
 categories: 'MachineLearning'
 tags: 'MachineLearning'
 author: Jiazhi
