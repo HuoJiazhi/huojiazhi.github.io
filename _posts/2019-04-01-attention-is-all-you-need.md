@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "NLP学习整理"
-crawlertitle: "Attention is All You Need"
+crawlertitle: "NLP学习整理""
 summary: "NLP学习整理"
 date:   2019-04-07 12:09:47 +0700
 categories: 'MachineLearning'
