@@ -16,8 +16,8 @@ Attention其实就可以解释为注意力，我们在阅读理解或者在听�
 
 第一种比较常用的Attention机制
 
-http://www.cnblogs.com/robert-dlut/p/5952032.html 这个blog介绍得很好
+[这个blog介绍得很好](http://www.cnblogs.com/robert-dlut/p/5952032.html)
 
 第二种是论文中提出的Self-Attention机制
 
-https://www.cnblogs.com/robert-dlut/p/8638283.html 还是同一个博主的介绍
+[还是同一个博主的介绍](https://www.cnblogs.com/robert-dlut/p/8638283.html)
